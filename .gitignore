@@ -1,0 +1,100 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyTorch
+*.pth
+*.pth.tar
+*.pt
+*.ckpt
+*.ep
+*.pkl
+
+# Tensorboard
+runs/
+logs/
+events.out.tfevents.*
+
+# Data
+data/
+data.cifar10/
+*.cifar10
+datasets/
+*.zip
+*.h5
+*.npy
+*.npz
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Debug and temp files
+*.log
+*.tmp
+tmp/
+temp/
+
+# Model outputs
+baseline_logs/
+sparsity_logs/
+pruned_logs/
+finetuned_logs/
+quantized_logs/
+quantized_logs_fp8/
+matrix_decomposition_logs/
+knowledge_distillation_logs/
+knowledge_distillation_vgg16_logs/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Distribution / packaging
+.Python
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
